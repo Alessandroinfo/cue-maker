@@ -1,0 +1,7 @@
+{
+  "label":"Cue Maker",
+  "icon":"cuemaker.png",
+  "iconsel":"",
+  "launch":"launch.sh",
+  "description":"Making cue files from bin scanning directories"
+}
