@@ -3,5 +3,5 @@
   "icon":"cuemaker.png",
   "iconsel":"",
   "launch":"launch.sh",
-  "description":"Making cue files from bin scanning directories"
+  "description":"Generate cue files for psx games"
 }
