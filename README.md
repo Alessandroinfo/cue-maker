@@ -9,7 +9,7 @@ Copy the `App/` files into CueMaker folder in `App/`
 
 or
 
-Run inside the terminal `rm -r -f /mnt/SDCARD/App/CueMaker && /cd /mnt/SDCARD/App && wget -O cue-maker-main.zip https://github.com/Alessandroinfo/cue-maker/archive/refs/heads/main.zip && mkdir CueMaker && unzip cue-maker-main.zip && mv cue-maker-main/App/* CueMaker && rm -r -f cue-maker-main.zip cue-maker-main`
+Run inside the terminal `rm -r -f /mnt/SDCARD/App/CueMaker && cd /mnt/SDCARD/App && wget -O cue-maker-main.zip https://github.com/Alessandroinfo/cue-maker/archive/refs/heads/main.zip && mkdir CueMaker && unzip cue-maker-main.zip && mv cue-maker-main/App/* CueMaker && rm -r -f cue-maker-main.zip cue-maker-main`
 
 Using with Onion OS
 -------------------

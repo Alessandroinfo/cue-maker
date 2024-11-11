@@ -1,6 +1,6 @@
 {
   "label":"Cue Maker",
-  "icon":"cuemaker.png",
+  "icon":"cue_maker.png",
   "iconsel":"",
   "launch":"launch.sh",
   "description":"Generate cue files for psx games"
