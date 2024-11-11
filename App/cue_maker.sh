@@ -54,7 +54,7 @@ find "$root" -type f \( -iname "*.bin" -o -iname "*.iso" -o -iname "*.img" \) | 
     filename="${file%.*}"
 
     # Check if .cue file exists and create or skip based on overwrite setting
-    if ! ls "$dirpath" | grep -iq "^${filename}.cue$" || [ "$overwrite" = "true" ]; then
+    if ! ls "$dirpath" | grep -Fiq "^${filename}.cue$" || [ "$overwrite" = "true" ]; then
         create_cue_file "$dirpath" "$file"
     fi
 
