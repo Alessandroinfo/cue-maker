@@ -3,6 +3,12 @@ CueMaker
 
 CueMaker is a simple shell script designed to generate `.cue` files for `.bin`, `.iso`, and `.img` files in a specified directory. This is particularly useful for systems that require `.cue` files alongside game or media files but lack them. The script supports recursive directory searching and can overwrite existing `.cue` files based on user preference.
 
+Installation in Onion OS
+-------------------
+Copy the App/ files into CueMaker folder in App/
+or
+Run inside the terminal `cd /mnt/SDCARD/App && wget -O cue-maker-main.zip https://github.com/Alessandroinfo/cue-maker/archive/refs/heads/main.zip && mkdir CueMaker && unzip cue-maker-main.zip && mv cue-maker-main/App/* CueMaker && rm -r -f cue-maker-main.zip cue-maker-main`
+
 Using with Onion OS
 -------------------
 
