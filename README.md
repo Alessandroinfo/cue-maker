@@ -5,16 +5,13 @@ CueMaker is a simple shell script designed to generate `.cue` files for `.bin`, 
 
 Installation in Onion OS
 -------------------
-Copy the `App/` files into CueMaker folder in `App/`
+
+To use CueMaker on Onion OS, simply download all the contents of this project and place them in the directory `App/CueMaker` on your device. This will allow you to run the script within the Onion OS environment for convenient cue file management.
 
 or
 
 Run inside the terminal `rm -r -f /mnt/SDCARD/App/CueMaker && cd /mnt/SDCARD/App && wget -O cue-maker-main.zip https://github.com/Alessandroinfo/cue-maker/archive/refs/heads/main.zip && mkdir CueMaker && unzip cue-maker-main.zip && mv cue-maker-main/App/* CueMaker && rm -r -f cue-maker-main.zip cue-maker-main`
 
-Using with Onion OS
--------------------
-
-To use CueMaker on Onion OS, simply download all the contents of this project and place them in the directory `App/CueMaker` on your device. This will allow you to run the script within the Onion OS environment for convenient cue file management.
 
 Features
 --------
@@ -35,8 +32,6 @@ Run the script with the following command format:
 
 bash
 
-Copia codice
-
 `./cue_maker.sh [path] [recursive] [overwrite]`
 
 -   **path**: (Optional) The root directory to scan. Defaults to `roms`.
@@ -55,23 +50,17 @@ Copia codice
 
     bash
 
-    Copia codice
-
     `./cue_maker.sh roms Y Y`
 
 2.  **Specify a custom directory** (`/path/to/files`), **non-recursive** without overwriting:
 
     bash
 
-    Copia codice
-
     `./cue_maker.sh /path/to/files N N`
 
 3.  **Specify a custom directory** (`/path/to/files`), **recursive** without overwriting:
 
     bash
-
-    Copia codice
 
     `./cue_maker.sh /path/to/files Y N`
 
@@ -83,8 +72,6 @@ CueMaker uses a template `.cue` file format, which is applied to each media file
 The `.cue` template:
 
 plaintext
-
-Copia codice
 
 `FILE "%FILENAME%" BINARY
 TRACK 01 MODE1/2352
